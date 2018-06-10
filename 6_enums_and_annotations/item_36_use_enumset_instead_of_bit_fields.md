@@ -8,7 +8,7 @@ What is bit fields?
 
 If the elements of an enumerated type are used primarily in sets, it is traditional to use the int enum pattern (Item 34), assigning a different power of 2 to each con- stant:
 
-```
+``` java
     // Bit field enumeration constants - OBSOLETE!
     public static class Text {
         public static final int STYLE_BOLD = 1 << 0; // 1
@@ -39,7 +39,7 @@ If the elements of an enumerated type are used primarily in sets, it is traditio
 
 The java.util package provides the EnumSet class to efficiently represent sets of values drawn from a single enum type.
 This class implements the Set interface, providing all of the richness, type safety, and interoperability you get with any other Set implementation.
-```
+``` java
     // EnumSet - a modern replacement for bit fields
     public static class EnumSetText {
 
@@ -67,7 +67,7 @@ This class implements the Set interface, providing all of the richness, type saf
 ## Related Items
 > Item 1: Consider static factory methods instead of constructors
 
-```
+``` java
     public static <E extends Enum<E>> EnumSet<E> noneOf(Class<E> elementType) {
         ...
         if (universe.length <= 64)
