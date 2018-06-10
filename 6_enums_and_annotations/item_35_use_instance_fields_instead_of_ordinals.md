@@ -7,7 +7,7 @@
 All enums have an ordinal method, which returns the numerical position of each enum constant in its type.
 You may be tempted to derive an associated int value from the ordinal:
 
-```
+``` java
  // Abuse of ordinal to derive an associated value - DON'T DO THIS
     public enum Ensemble {
         SOLO,   DUET,   TRIO, QUARTET, QUINTET,
@@ -24,7 +24,7 @@ You may be tempted to derive an associated int value from the ordinal:
 
 ## Solution
 - Never derive a value associated with an enum from its ordinal; store it in an instance field instead.
-```
+``` java
 public enum Ensemble {
        SOLO(1), DUET(2), TRIO(3), QUARTET(4), QUINTET(5),
        SEXTET(6), SEPTET(7), OCTET(8), DOUBLE_QUARTET(8),

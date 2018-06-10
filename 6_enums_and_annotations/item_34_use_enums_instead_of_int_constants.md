@@ -26,7 +26,7 @@ Before enums: **int enum pattern**
  
 ## enums
 
-```
+``` java
 public enum Apple  { FUJI, PIPPIN, GRANNY_SMITH }
 public enum Orange { NAVEL, TEMPLE, BLOOD }
 ```
@@ -47,7 +47,7 @@ they are classes that export one instance for each enumeration constant via a pu
     > 1. provide high-quality implementations of all the Object methods.
     > 2. implement Comparable, Serializable.
 
-```
+``` java
 // Enum type with constant-specific class bodies and data
 // associate different data with each enum.
 enum Operation3 {
@@ -100,7 +100,7 @@ enum Operation3 {
 A disadvantage of `constant-specific method implementations` is that they make it harder to share code among enum constants.
 
 Question: What's the problem of this code?
-```
+``` java
 // Enum that switches on its value to share code - questionable
    enum PayrollDay {
        MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY,
@@ -135,7 +135,7 @@ Either approach would result in a fair amount of boilerplate code.
 What you really want is to be forced to choose an overtime pay strategy each time you add an enum constant.
 Luckily, there is a nice way to achieve this. The idea is to move the overtime pay computation into a private nested enum, and to pass an instance of this strategy enum to the constructor for the PayrollDay enum.
 
-```
+``` java
 // The strategy enum pattern
    enum PayrollDay {
        MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY,
