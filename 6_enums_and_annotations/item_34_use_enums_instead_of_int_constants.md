@@ -1,5 +1,4 @@
 # Item 34: Use enums instead of int constants
-<<<<<<< HEAD
 
 ## int enum pattern
 
@@ -180,5 +179,3 @@ In summary,
 In this relatively rare case, prefer **constant-specific methods** to enums that switch on their own values.
 - Consider the **strategy enum** pattern if some, but not all, enum constants share common behaviors.
 
-=======
->>>>>>> 32e0af71a304743b29c96cb622f1db71301e8a41
