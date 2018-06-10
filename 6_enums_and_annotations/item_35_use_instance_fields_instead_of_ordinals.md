@@ -1,1 +1,28 @@
 # Item 35: Use instance fields instead of ordinals
+
+## ordinal()
+
+All enums have an ordinal method, which returns the numerical position of each enum constant in its type.
+You may be tempted to derive an associated int value from the ordinal:
+
+```
+ // Abuse of ordinal to derive an associated value - DON'T DO THIS
+    public enum Ensemble {
+        SOLO,   DUET,   TRIO, QUARTET, QUINTET,
+        SEXTET, SEPTET, OCTET, NONET,  DECTET;
+        public int numberOfMusicians() { return ordinal() + 1; } }
+ ```
+
+## Problems
+- If the constants are reordered, the `numberOfMusicians` method will break.
+- You can't add a second enum constant associated with an int value that you’ve already used.
+- You can’t add a constant for an int value without adding constants for all intervening int values.
+
+## Solution
+- Never derive a value associated with an enum from its ordinal; store it in an instance field instead.
+
+
+## Summary
+- `ordinal()` is designed for use by general-purpose enum-based data structures such as `EnumSet` and `EnumMap`.
+- Unless you are writing code with this character, you are best off avoiding the `ordinal` method entirely.
+
