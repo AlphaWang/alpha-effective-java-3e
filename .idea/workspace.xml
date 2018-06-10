@@ -2,21 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0d94b390-cc1f-46f9-b9f1-79ced15a6589" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/alpha-effective-java.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/markdown-navigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/markdown-navigator/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sbt.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/src/java/com/effectivejava/ch06_enums_annotations/Item34_1_IntConstantPattern.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/src/java/com/effectivejava/ch06_enums_annotations/Item34_2_Enum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/src/java/com/effectivejava/ch06_enums_annotations/Item34_3_FromString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/6_enums_and_annotations/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/6_enums_and_annotations/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Alpha.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/src/java/com/effectivejava/ch06_enums_annotations/Item34_4_StrategyEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/6_enums_and_annotations/item_34_use_enums_instead_of_int_constants.md" beforeDir="false" afterPath="$PROJECT_DIR$/6_enums_and_annotations/item_34_use_enums_instead_of_int_constants.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/java/com/effectivejava/ch06_enums_annotations/Item34_1_IntConstantPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/java/com/effectivejava/ch06_enums_annotations/Item34_1_IntConstantPattern.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/java/com/effectivejava/ch06_enums_annotations/Item34_2_Enum.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/java/com/effectivejava/ch06_enums_annotations/Item34_2_Enum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/src/java/com/effectivejava/ch06_enums_annotations/Item34_3_FromString.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/java/com/effectivejava/ch06_enums_annotations/Item34_3_FromString.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -36,7 +29,7 @@
         <entry file="file://$PROJECT_DIR$/main/src/java/com/effectivejava/ch06_enums_annotations/Item34_1_IntConstantPattern.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="315">
-              <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+              <caret line="21" column="30" lean-forward="true" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
               <folding>
                 <element signature="e#470#471#0" expanded="true" />
                 <element signature="e#521#522#0" expanded="true" />
@@ -45,12 +38,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="item_34_use_enums_instead_of_int_constants.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="item_34_use_enums_instead_of_int_constants.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/6_enums_and_annotations/item_34_use_enums_instead_of_int_constants.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="195">
-                <caret line="13" column="38" lean-forward="true" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
+              <first_editor relative-caret-position="589">
+                <caret line="179" column="32" selection-start-line="179" selection-start-column="32" selection-end-line="179" selection-end-column="32" />
               </first_editor>
               <second_editor>
                 <js_state />
@@ -59,11 +52,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Item34_3_FromString.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Item34_4_StrategyEnum.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main/src/java/com/effectivejava/ch06_enums_annotations/Item34_4_StrategyEnum.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="395">
+              <caret line="109" column="66" lean-forward="true" selection-start-line="109" selection-start-column="66" selection-end-line="109" selection-end-column="66" />
+              <folding>
+                <element signature="e#3511#3512#0" expanded="true" />
+                <element signature="e#3577#3578#0" expanded="true" />
+                <element signature="e#3965#3966#0" expanded="true" />
+                <element signature="e#4036#4037#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Item34_3_FromString.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main/src/java/com/effectivejava/ch06_enums_annotations/Item34_3_FromString.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+            <state relative-caret-position="381">
+              <caret line="35" column="28" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#543#544#0" expanded="true" />
@@ -87,29 +95,29 @@
       <file leaf-file-name="Item34_2_Enum.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main/src/java/com/effectivejava/ch06_enums_annotations/Item34_2_Enum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="59" column="2" selection-start-line="59" selection-start-column="2" selection-end-line="59" selection-end-column="2" />
+            <state relative-caret-position="1320">
+              <caret line="88" column="4" selection-start-line="88" selection-start-column="4" selection-end-line="88" selection-end-column="4" />
               <folding>
-                <element signature="e#703#704#0" expanded="true" />
-                <element signature="e#724#725#0" expanded="true" />
-                <element signature="e#780#781#0" expanded="true" />
-                <element signature="e#801#802#0" expanded="true" />
-                <element signature="e#857#858#0" expanded="true" />
-                <element signature="e#878#879#0" expanded="true" />
-                <element signature="e#935#936#0" expanded="true" />
-                <element signature="e#956#957#0" expanded="true" />
-                <element signature="e#1200#1201#0" expanded="true" />
-                <element signature="e#1221#1222#0" expanded="true" />
-                <element signature="e#1283#1284#0" expanded="true" />
-                <element signature="e#1304#1305#0" expanded="true" />
-                <element signature="e#1366#1367#0" expanded="true" />
-                <element signature="e#1387#1388#0" expanded="true" />
-                <element signature="e#1450#1451#0" expanded="true" />
-                <element signature="e#1471#1472#0" expanded="true" />
-                <element signature="e#1536#1537#0" expanded="true" />
-                <element signature="e#1563#1564#0" expanded="true" />
-                <element signature="e#1603#1604#0" expanded="true" />
-                <element signature="e#1623#1624#0" expanded="true" />
+                <element signature="e#823#824#0" expanded="true" />
+                <element signature="e#859#860#0" expanded="true" />
+                <element signature="e#924#925#0" expanded="true" />
+                <element signature="e#960#961#0" expanded="true" />
+                <element signature="e#1025#1026#0" expanded="true" />
+                <element signature="e#1061#1062#0" expanded="true" />
+                <element signature="e#1127#1128#0" expanded="true" />
+                <element signature="e#1163#1164#0" expanded="true" />
+                <element signature="e#1422#1423#0" expanded="true" />
+                <element signature="e#1458#1459#0" expanded="true" />
+                <element signature="e#1528#1529#0" expanded="true" />
+                <element signature="e#1564#1565#0" expanded="true" />
+                <element signature="e#1634#1635#0" expanded="true" />
+                <element signature="e#1670#1671#0" expanded="true" />
+                <element signature="e#1741#1742#0" expanded="true" />
+                <element signature="e#1777#1778#0" expanded="true" />
+                <element signature="e#1851#1852#0" expanded="true" />
+                <element signature="e#1887#1888#0" expanded="true" />
+                <element signature="e#1929#1930#0" expanded="true" />
+                <element signature="e#1958#1959#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -234,9 +242,10 @@
         <option value="$PROJECT_DIR$/6_enums_and_annotations/README.md" />
         <option value="$PROJECT_DIR$/main/src/java/com/effectivejava/ch06_enums_annotations/Item34_EnumsInsteadOfIntConstant.java" />
         <option value="$PROJECT_DIR$/main/src/java/com/effectivejava/ch06_enums_annotations/Item34_1_IntConstantPattern.java" />
-        <option value="$PROJECT_DIR$/6_enums_and_annotations/item_34_use_enums_instead_of_int_constants.md" />
-        <option value="$PROJECT_DIR$/main/src/java/com/effectivejava/ch06_enums_annotations/Item34_2_Enum.java" />
         <option value="$PROJECT_DIR$/main/src/java/com/effectivejava/ch06_enums_annotations/Item34_3_FromString.java" />
+        <option value="$PROJECT_DIR$/main/src/java/com/effectivejava/ch06_enums_annotations/Item34_2_Enum.java" />
+        <option value="$PROJECT_DIR$/main/src/java/com/effectivejava/ch06_enums_annotations/Item34_4_StrategyEnum.java" />
+        <option value="$PROJECT_DIR$/6_enums_and_annotations/item_34_use_enums_instead_of_int_constants.md" />
       </list>
     </option>
   </component>
@@ -247,66 +256,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="273" />
+    <option name="x" value="79" />
     <option name="y" value="23" />
-    <option name="width" value="1167" />
+    <option name="width" value="1361" />
     <option name="height" value="877" />
-  </component>
-  <component name="ProjectInspectionProfilesVisibleTreeState">
-    <entry key="Project Default">
-      <profile-state>
-        <expanded-state>
-          <State>
-            <id />
-          </State>
-          <State>
-            <id>Android Lint</id>
-          </State>
-          <State>
-            <id>General</id>
-          </State>
-          <State>
-            <id>Groovy</id>
-          </State>
-          <State>
-            <id>Internationalization issuesJava</id>
-          </State>
-          <State>
-            <id>JUnit issuesJava</id>
-          </State>
-          <State>
-            <id>Java</id>
-          </State>
-          <State>
-            <id>JavaScript</id>
-          </State>
-          <State>
-            <id>Naming ConventionsGroovy</id>
-          </State>
-          <State>
-            <id>Naming conventionsJava</id>
-          </State>
-          <State>
-            <id>Naming conventionsJavaScript</id>
-          </State>
-          <State>
-            <id>Performance issuesJava</id>
-          </State>
-          <State>
-            <id>Probable bugsJava</id>
-          </State>
-          <State>
-            <id>Properties Files</id>
-          </State>
-          <State>
-            <id>TestNGJava</id>
-          </State>
-          <State>
-            <id>Velocity inspections</id>
-          </State>
-        </expanded-state>
-      </profile-state>
-    </entry>
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -418,8 +371,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
-    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="vcs.TFS" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -507,15 +459,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1528607271545</updated>
-      <workItem from="1528607273337" duration="10202000" />
+      <workItem from="1528607273337" duration="12881000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10202000" />
+    <option name="totallyTimeSpent" value="12881000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="273" y="23" width="1167" height="877" extended-state="0" />
+    <frame x="79" y="23" width="1361" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="PlantUML" order="8" />
@@ -538,7 +490,7 @@
       <window_info anchor="bottom" id="Run" order="7" />
       <window_info anchor="bottom" id="Version Control" order="2" />
       <window_info anchor="bottom" id="Terminal" order="0" />
-      <window_info active="true" content_ui="combo" id="Project" order="4" visible="true" weight="0.2808889" />
+      <window_info content_ui="combo" id="Project" order="4" weight="0.23957543" />
       <window_info anchor="bottom" id="Reviews" order="3" />
       <window_info anchor="right" id="SciView" order="6" />
       <window_info anchor="right" id="Theme Preview" order="3" />
@@ -550,6 +502,39 @@
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Designer" order="0" />
+      <window_info anchor="right" id="PlantUML" order="8" />
+      <window_info anchor="right" id="Palette" order="0" />
+      <window_info anchor="bottom" id="Run" order="7" />
+      <window_info id="Image Layers" order="1" />
+      <window_info anchor="right" id="Commander" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="10" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="0" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="2" />
+      <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="11" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="4" visible="true" weight="0.23957543" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="1" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="2" />
+      <window_info anchor="right" id="Maven Projects" order="1" />
+      <window_info anchor="right" id="News Feed" order="4" />
+      <window_info anchor="bottom" id="Find" order="6" />
+      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
+      <window_info anchor="right" id="SciView" order="6" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="TODO" order="11" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="bottom" id="Reviews" order="3" />
+      <window_info id="Structure" order="5" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -605,62 +590,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/6_enums_and_annotations/item_34_use_enums_instead_of_int_constants.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="195">
-            <caret line="13" column="38" lean-forward="true" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
-          </first_editor>
-          <second_editor>
-            <js_state />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/src/java/com/effectivejava/ch06_enums_annotations/Item34_2_Enum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="59" column="2" selection-start-line="59" selection-start-column="2" selection-end-line="59" selection-end-column="2" />
-          <folding>
-            <element signature="e#703#704#0" expanded="true" />
-            <element signature="e#724#725#0" expanded="true" />
-            <element signature="e#780#781#0" expanded="true" />
-            <element signature="e#801#802#0" expanded="true" />
-            <element signature="e#857#858#0" expanded="true" />
-            <element signature="e#878#879#0" expanded="true" />
-            <element signature="e#935#936#0" expanded="true" />
-            <element signature="e#956#957#0" expanded="true" />
-            <element signature="e#1200#1201#0" expanded="true" />
-            <element signature="e#1221#1222#0" expanded="true" />
-            <element signature="e#1283#1284#0" expanded="true" />
-            <element signature="e#1304#1305#0" expanded="true" />
-            <element signature="e#1366#1367#0" expanded="true" />
-            <element signature="e#1387#1388#0" expanded="true" />
-            <element signature="e#1450#1451#0" expanded="true" />
-            <element signature="e#1471#1472#0" expanded="true" />
-            <element signature="e#1536#1537#0" expanded="true" />
-            <element signature="e#1563#1564#0" expanded="true" />
-            <element signature="e#1603#1604#0" expanded="true" />
-            <element signature="e#1623#1624#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/src/java/com/effectivejava/ch06_enums_annotations/Item34_1_IntConstantPattern.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
-          <folding>
-            <element signature="e#470#471#0" expanded="true" />
-            <element signature="e#521#522#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main/src/java/com/effectivejava/ch06_enums_annotations/Item34_3_FromString.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
+        <state relative-caret-position="381">
+          <caret line="35" column="28" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#543#544#0" expanded="true" />
@@ -668,6 +601,71 @@
             <element signature="e#902#903#0" expanded="true" />
             <element signature="e#959#960#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/src/java/com/effectivejava/ch06_enums_annotations/Item34_1_IntConstantPattern.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="30" lean-forward="true" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
+          <folding>
+            <element signature="e#470#471#0" expanded="true" />
+            <element signature="e#521#522#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/src/java/com/effectivejava/ch06_enums_annotations/Item34_2_Enum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1320">
+          <caret line="88" column="4" selection-start-line="88" selection-start-column="4" selection-end-line="88" selection-end-column="4" />
+          <folding>
+            <element signature="e#823#824#0" expanded="true" />
+            <element signature="e#859#860#0" expanded="true" />
+            <element signature="e#924#925#0" expanded="true" />
+            <element signature="e#960#961#0" expanded="true" />
+            <element signature="e#1025#1026#0" expanded="true" />
+            <element signature="e#1061#1062#0" expanded="true" />
+            <element signature="e#1127#1128#0" expanded="true" />
+            <element signature="e#1163#1164#0" expanded="true" />
+            <element signature="e#1422#1423#0" expanded="true" />
+            <element signature="e#1458#1459#0" expanded="true" />
+            <element signature="e#1528#1529#0" expanded="true" />
+            <element signature="e#1564#1565#0" expanded="true" />
+            <element signature="e#1634#1635#0" expanded="true" />
+            <element signature="e#1670#1671#0" expanded="true" />
+            <element signature="e#1741#1742#0" expanded="true" />
+            <element signature="e#1777#1778#0" expanded="true" />
+            <element signature="e#1851#1852#0" expanded="true" />
+            <element signature="e#1887#1888#0" expanded="true" />
+            <element signature="e#1929#1930#0" expanded="true" />
+            <element signature="e#1958#1959#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/src/java/com/effectivejava/ch06_enums_annotations/Item34_4_StrategyEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="109" column="66" lean-forward="true" selection-start-line="109" selection-start-column="66" selection-end-line="109" selection-end-column="66" />
+          <folding>
+            <element signature="e#3511#3512#0" expanded="true" />
+            <element signature="e#3577#3578#0" expanded="true" />
+            <element signature="e#3965#3966#0" expanded="true" />
+            <element signature="e#4036#4037#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/6_enums_and_annotations/item_34_use_enums_instead_of_int_constants.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="589">
+            <caret line="179" column="32" selection-start-line="179" selection-start-column="32" selection-end-line="179" selection-end-column="32" />
+          </first_editor>
+          <second_editor>
+            <js_state />
+          </second_editor>
         </state>
       </provider>
     </entry>
