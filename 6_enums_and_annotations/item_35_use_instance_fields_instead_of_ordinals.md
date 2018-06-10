@@ -1,5 +1,7 @@
 # Item 35: Use instance fields instead of ordinals
 
+ [see example code](../main/src/java/com/effectivejava/ch06_enums_annotations/Item35_Orinal.java)
+
 ## ordinal()
 
 All enums have an ordinal method, which returns the numerical position of each enum constant in its type.
