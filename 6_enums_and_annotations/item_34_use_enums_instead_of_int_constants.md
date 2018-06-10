@@ -1,5 +1,4 @@
 # Item 34: Use enums instead of int constants
-<<<<<<< HEAD
 
 ## int enum pattern
 
@@ -24,7 +23,7 @@ Before enums: **int enum pattern**
 
  - There is no easy way to translate int enum constants into printable strings.
  - There is no reliable way to iterate over all the int enum constants in a group.
- 
+
 ## enums
 
 ```
@@ -42,8 +41,8 @@ they are classes that export one instance for each enumeration constant via a pu
     > 1. compile-time type safety.
     > 2. each type has its own namespace.
     > 3. ...
-- enum types let you add arbitrary methods and fields and implement arbitrary interfaces.  
-(i.e. associate different data/behavior with each enum type)  
+- enum types let you add arbitrary methods and fields and implement arbitrary interfaces.
+(i.e. associate different data/behavior with each enum type)
 [see example code](../main/src/java/com/effectivejava/ch06_enums_annotations/Item34_2_Enum.java)
     > 1. provide high-quality implementations of all the Object methods.
     > 2. implement Comparable, Serializable.
@@ -88,7 +87,7 @@ enum Operation3 {
 }
 ```
 
-    
+
 **Tips:**
 - Just as with other classes, unless you have a compelling reason to expose an enum method to its clients, declare it private or, if need be, package-private.
 - If an enum is generally useful, it should be a top-level class; if its use is tied to a specific top-level class, it should be a member class of that top-level class.
@@ -147,7 +146,7 @@ Luckily, there is a nice way to achieve this. The idea is to move the overtime p
        int pay(int minutesWorked, int payRate) {
            return payType.pay(minutesWorked, payRate);
        }
-       
+
        // The strategy enum type
        private enum PayType {
            WEEKDAY {
@@ -180,5 +179,3 @@ In summary,
 In this relatively rare case, prefer **constant-specific methods** to enums that switch on their own values.
 - Consider the **strategy enum** pattern if some, but not all, enum constants share common behaviors.
 
-=======
->>>>>>> 32e0af71a304743b29c96cb622f1db71301e8a41
