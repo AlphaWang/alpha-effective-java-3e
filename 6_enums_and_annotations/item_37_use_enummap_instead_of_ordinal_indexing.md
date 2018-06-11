@@ -70,7 +70,7 @@ System.out.println(plantsByLifeCycle);
 
 
 **Advantages**
-- it's shorter, clearer, safer.    
+- it's shorter, clearer, safer.  
     > can be further shortened by using a stream.
 - there's no unsafe cast.
 - no possibility for error in computing array indices.
