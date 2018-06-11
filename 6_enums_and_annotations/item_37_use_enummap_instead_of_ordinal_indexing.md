@@ -4,7 +4,7 @@
 
 [Example](../main/src/java/com/effectivejava/ch06_enums_annotations/Item37_EnumMap.java)
 
-```
+``` java
    class Plant {
         enum LifeCycle {
             ANNUAL, PERENNIAL, BIENNIAL
@@ -53,7 +53,8 @@ it is your responsibility to use the correct int value.
 
 - The array is effectively serving as a map from the enum to a value, so you might as well use a Map.
 - There is a very fast Map implementation designed for use with enum keys, known as `java.util.EnumMap`.
-```
+
+``` java
 Map<Plant.LifeCycle, Set<Plant>> plantsByLifeCycle = new EnumMap<>(Plant.LifeCycle.class);
 for (Plant.LifeCycle lc : Plant.LifeCycle.values()) {
     plantsByLifeCycle.put(lc, new HashSet<>());
@@ -66,6 +67,7 @@ for (Plant p : garden) {
 // {ANNUAL=[Grass], PERENNIAL=[Tree], BIENNIAL=[]}
 System.out.println(plantsByLifeCycle);
 ```
+
 
 **Advantages**
 - it's shorter, clearer, safer.
