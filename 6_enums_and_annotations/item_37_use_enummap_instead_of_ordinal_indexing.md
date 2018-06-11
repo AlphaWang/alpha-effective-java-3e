@@ -71,11 +71,11 @@ System.out.println(plantsByLifeCycle);
 
 **Advantages**
 - it's shorter, clearer, safer.
-  > can be further shortened by using a stream.
+    > can be further shortened by using a stream.
 - there's no unsafe cast.
 - no possibility for error in computing array indices.
 - it's comparable in speed to the original version.
-  > EnumMap uses such an array internally, but it hides this implementation detail from the programmer.
+    > EnumMap uses such an array internally, but it hides this implementation detail from the programmer.
 
 ## Nested EnumMap
 [see example code](../main/src/java/com/effectivejava/ch06_enums_annotations/Item37_NestedEnumMap.java)
