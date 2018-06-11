@@ -37,15 +37,15 @@ they are classes that export one instance for each enumeration constant via a pu
 - are a generalization of singletons.
 
 **Advantages:**
-- rectifying the deficiencies of int enums.
-    > 1. compile-time type safety.
-    > 2. each type has its own namespace.
+- rectifying the deficiencies of int enums.  
+    > 1. compile-time type safety.  
+    > 2. each type has its own namespace.  
     > 3. ...
 - enum types let you add arbitrary methods and fields and implement arbitrary interfaces.  
 (i.e. associate different data/behavior with each enum type)  
-[see example code](../main/src/java/com/effectivejava/ch06_enums_annotations/Item34_2_Enum.java)
-    > 1. provide high-quality implementations of all the Object methods.
-    > 2. implement Comparable, Serializable.
+[see example code](../main/src/java/com/effectivejava/ch06_enums_annotations/Item34_2_Enum.java)   
+    > 1. provide high-quality implementations of all the Object methods.  
+    > 2. implement Comparable, Serializable.  
 
 ``` java
 // Enum type with constant-specific class bodies and data
