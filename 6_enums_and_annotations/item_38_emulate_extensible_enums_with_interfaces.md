@@ -8,7 +8,7 @@ It's in possible to have one enumerated type extend another. Why?
 - There is no good way to enumerate over all of the elements of a base type and its extensions. 
 - Extensibility would complicate many aspects of the design and implementation.
 
-## extensible enumerated types
+## Extensible enumerated types
 
 But there is at least one compelling use case for extensible enumerated types, which is operation codes, also known as opcodes.
 
