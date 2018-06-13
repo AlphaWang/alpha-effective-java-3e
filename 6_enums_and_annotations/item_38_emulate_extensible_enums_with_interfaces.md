@@ -14,7 +14,7 @@ But there is at least one compelling use case for extensible enumerated types, w
 
 The basic idea is to take advantage of the fact that **enum types can implement arbitrary interfaces**
 
-```
+```java
    /**
      * Emulated extensible enum using an interface
      */
@@ -62,7 +62,7 @@ While the enum type (BasicOperation) is not extensible, the interface type (Oper
 
 ### How to extend it?
 
-```
+```java
    /**
      * Emulated extension enum
      */
@@ -93,7 +93,7 @@ While the enum type (BasicOperation) is not extensible, the interface type (Oper
 
 Solution #1: `bounded type token` 
 
-```
+```java
     /**
      * Pass in an entire extension enum type:
      * Solution #1: `bounded type token`
@@ -120,7 +120,7 @@ Solution #1: `bounded type token`
 ```
 
 Solution #2: `bounded wildcard type`
-```
+```java
     /**
      * Pass in an entire extension enum type:
      * Solution #2: `bounded wildcard type`
