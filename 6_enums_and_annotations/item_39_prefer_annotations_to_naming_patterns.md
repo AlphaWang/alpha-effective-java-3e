@@ -7,7 +7,7 @@ For example, prior to release 4, the JUnit testing framework required its users 
 
 [Example](../main/src/java/com/effectivejava/ch06_enums_annotations/Item39_1_NameingPattern.java)
 
-```
+```java
     public static class Tester3 {
 
         protected void setUp() throws Exception {
