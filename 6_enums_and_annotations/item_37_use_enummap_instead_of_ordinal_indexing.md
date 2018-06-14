@@ -4,6 +4,11 @@
 
 [Example](../main/src/java/com/effectivejava/ch06_enums_annotations/Item37_EnumMap.java)
 
+
+This simplistic class meant to represent a plant.
+Suppose you have an array of plants representing a garden.  
+Q: How to list these plants organized by life cycle?
+
 ``` java
    class Plant {
         enum LifeCycle {

@@ -8,14 +8,6 @@ import static com.effectivejava.ch06_enums_annotations.Item36_EnumSet.EnumSetTex
 
 public class Item36_EnumSet {
 
-    public static void main(String[] args) {
-        BitFieldText text = new BitFieldText();
-        text.applyStyles(BitFieldText.STYLE_BOLD | BitFieldText.STYLE_ITALIC);
-
-        EnumSetText enumSetText = new EnumSetText();
-        enumSetText.applyStyles(EnumSet.of(BOLD, STRIKETHROUGH));
-    }
-
     /**
      *  Bit field enumeration constants - OBSOLETE!
      */
@@ -57,5 +49,13 @@ public class Item36_EnumSet {
         }
     }
 
+
+    public static void main(String[] args) {
+        BitFieldText text = new BitFieldText();
+        text.applyStyles(BitFieldText.STYLE_BOLD | BitFieldText.STYLE_ITALIC);
+
+        EnumSetText enumSetText = new EnumSetText();
+        enumSetText.applyStyles(EnumSet.of(BOLD, STRIKETHROUGH));
+    }
 
 }

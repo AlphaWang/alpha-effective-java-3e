@@ -37,7 +37,7 @@ they are classes that export one instance for each enumeration constant via a pu
 - are a generalization of singletons.
 
 **Advantages:**
-- rectifying the deficiencies of int enums.  
+- rectify the deficiencies of int enums.  
     > 1. compile-time type safety.  
     > 2. each type has its own namespace.  
     > 3. ...
@@ -93,7 +93,7 @@ enum Operation3 {
 - If an enum is generally useful, it should be a top-level class; if its use is tied to a specific top-level class, it should be a member class of that top-level class.
 - If you override the `toString` method in an enum type, consider writing a `fromString` method to translate the custom string representation back to the corresponding enum.
 [see example code](../main/src/java/com/effectivejava/ch06_enums_annotations/Item34_3_FromString.java)
-- Use enums any time you need a set of con- stants whose members are known at compile time.
+- Use enums any time you need a set of constants whose members are known at compile time.
 
 ## Strategy Enum
 

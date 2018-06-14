@@ -25,7 +25,8 @@ public enum Item34_3_FromString {
         // stringToEnum2.put(this.toString(), this);
     }
 
-    @Override public String toString() {
+    @Override 
+    public String toString() {
         return symbol;
     }
 
