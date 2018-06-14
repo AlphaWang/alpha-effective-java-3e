@@ -2,7 +2,7 @@
 
 
 
-##prefer lambdas to anonymous class
+## prefer lambdas to anonymous class
 ```java
   //Bad
   Collections.sort(words, new Comparator<String>() {
@@ -30,7 +30,7 @@
 ```  
 
 
-##Explicit is better than implicit. ##
+## Explicit is better than implicit. ##
 
 
 ```java
@@ -73,7 +73,7 @@ DIVIDE("/", (x, y) -> x / y);
 } }
 ```
 
-##Caveat 
+## Caveat 
 - Lambda doesn't have **name** and **documentation**
   - Use lambda only it ends with a line and self-explanatory, or **don't use it**
   - Three line is **maximum**
@@ -154,4 +154,4 @@ public abstract class TestAbstractClass {
 
 ```    
 
-##In summary, as of Java 8, lambdas are by far the best way to represent small function objects. Don’t use anonymous classes for function objects unless you have to create instances of types that aren’t functional interfaces. Also, remember that lambdas make it so easy to represent small function objects that it opens the door to functional programming techniques that were not previously practical in Java.
+## In summary, as of Java 8, lambdas are by far the best way to represent small function objects. Don’t use anonymous classes for function objects unless you have to create instances of types that aren’t functional interfaces. Also, remember that lambdas make it so easy to represent small function objects that it opens the door to functional programming techniques that were not previously practical in Java.
