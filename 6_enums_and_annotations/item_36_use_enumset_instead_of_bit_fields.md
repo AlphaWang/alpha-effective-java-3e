@@ -6,7 +6,7 @@
 What is bit fields?
 
 
-If the elements of an enumerated type are used primarily in sets, it is traditional to use the int enum pattern (Item 34), assigning a different power of 2 to each con- stant:
+If the elements of an enumerated type are used primarily in sets, it is traditional to use the int enum pattern (Item 34), assigning a different power of 2 to each constant:
 
 ``` java
     // Bit field enumeration constants - OBSOLETE!

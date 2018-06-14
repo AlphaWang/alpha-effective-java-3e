@@ -3,15 +3,14 @@
 [Example](../main/src/java/com/effectivejava/ch06_enums_annotations/Item38_ExtensibleEnum.java)
 
 
-It's in possible to have one enumerated type extend another. Why?
+It's inpossible to have one enumerated type extend another. Why?
 - It is confusing that elements of an extension type are instances of the base type and not vice versa. 
 - There is no good way to enumerate over all of the elements of a base type and its extensions. 
 - Extensibility would complicate many aspects of the design and implementation.
 
 ## Extensible enumerated types
 
-But there is at least one compelling use case for extensible enumerated types, which is operation codes, also known as opcodes.
-
+Sometimes it is desirable to let the users of an API provide their own operations, effectively extending the set of operations provided by the API.
 The basic idea is to take advantage of the fact that **enum types can implement arbitrary interfaces**
 
 ```java

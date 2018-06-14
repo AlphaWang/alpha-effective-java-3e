@@ -32,6 +32,12 @@ public class Item37_EnumMap {
 
     /**
      * 1. Using ordinal() to index into an array - DON'T DO THIS!
+     * 
+     * Problems:
+     *
+     * 1) Class cast: arrays are not compatible with generics.
+     * 2) when you access an array that is indexed by an enum’s ordinal, 
+     *    it is your responsibility to use the correct int value.
      */
     private static void ordinalIndexing(List<Plant> garden) {
         Set<Plant>[] plantsByLifeCycle = (Set<Plant>[]) new Set[Plant.LifeCycle.values().length];

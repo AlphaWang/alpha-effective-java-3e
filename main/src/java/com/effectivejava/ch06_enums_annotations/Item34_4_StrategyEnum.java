@@ -4,6 +4,11 @@ public class Item34_4_StrategyEnum {
 
     /**
      * Enum that switches on its value to share code - questionable
+     * 
+     * Question: What's the problem of this code?
+     * A: it is dangerous from a maintenance perspective. 
+     * Suppose you add an element to the enum, perhaps a special value to represent a vacation day, 
+     * but forget to add a corresponding case to the switch statement.
      */
     enum PayrollDay1 {
         MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY,
