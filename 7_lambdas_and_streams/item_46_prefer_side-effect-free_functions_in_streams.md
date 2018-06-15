@@ -9,10 +9,11 @@
 - A Computer consists of <Memory, Instruction, Calculator>
 - Function; method in computer science can be side effect free or not;
   - IntFunction<Integer> pureMethod= (x -> x+1), side effect free
-  - ```java
+  
+  ```java
     Random<Integer> randomizer;
     IntFunction<Integer> nonPureMethod = (x -> x + randomizer.nextInt());
-    ```
+  ```
   - This has side effect; return value doesn't depend on input value
 - If we call pure function a million times, result will be same always while we call with same input
 - If we call the latter function a million times, Return value changes everytime        
