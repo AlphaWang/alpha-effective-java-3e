@@ -108,6 +108,7 @@ public class Anagrams {
 
 - From a code block,you can read or modify any local variable in scope;from a lambda, you can only read final or effectively final variables [JLS 4.12.4], and you can’t modify any local variables.
 - From a code block, you can return from the enclosing method, break or continue an enclosing loop, or throw any checked exception that this method is declared to throw; from a lambda you can do none of these things.
+
 ```java
 //code block can break any time
 for(Integer number : infinites {

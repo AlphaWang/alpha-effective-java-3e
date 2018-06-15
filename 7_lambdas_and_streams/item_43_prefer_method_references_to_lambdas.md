@@ -14,6 +14,7 @@ map.merge(key, 1, Integer::sum);
 ```
 
 - Sometimes lambda is shorter, then don't hesitate to use lambda instead.
+
 ```java
 //boring
 service.execute(GoshThisClassNameIsHumongous::action);
