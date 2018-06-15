@@ -104,7 +104,7 @@ public class Anagrams {
 - refactor existing code to use streams and use them in new code only where it makes sense to do so
 
 
-### Lambda is not silver bullet
+### Stream is not silver bullet
 
 - From a code block,you can read or modify any local variable in scope;from a lambda, you can only read final or effectively final variables [JLS 4.12.4], and you can’t modify any local variables.
 - From a code block, you can return from the enclosing method, break or continue an enclosing loop, or throw any checked exception that this method is declared to throw; from a lambda you can do none of these things.
