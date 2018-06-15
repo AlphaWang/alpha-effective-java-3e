@@ -30,7 +30,7 @@ service.execute(() -> action());
   - Static
     - ``Integer::parseInt`` -> ``str -> Integer.parseInt(str)``
   - Bound
-    - ``Instant.now)::isAfter`` -> ``Instant then = Instant.now(); t -> then.isAfter(t);``
+    - ``(Instant.now)::isAfter`` -> ``Instant then = Instant.now(); t -> then.isAfter(t);``
   - Unbound
     - ``String::toLowerCase`` -> ``str -> str.toLowerCase()``
   - Class Constructor
