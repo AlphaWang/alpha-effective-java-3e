@@ -91,7 +91,7 @@ for (ProcessHandle ph : ProcessHandle.allProcesses()::iterator) {
   - if index is 7, it's bit representation is 1101 which means it returns set contains 0-th element, 2-th element, 3-th element.
   - if index is 0, it's bit representation is 0 which means it returns empty set
   - if index is equal to size of powerSet of given Set X, it returns given set X itself
-- Size of given Set X is bound to 30, because size() is signed integer and it's maximum value is 2^31-1 so when size of given Set X is 31 and size of powerSet(x) is 2^31, the  overflow happens.
+- Size of given Set X is bound to 30, because size() is signed integer and it's maximum value is 2^31 -1 so when size of given Set X is 31 and size of powerSet(x) is 2^31, the  overflow happens.
 
 ```java
    public class SubLists {
