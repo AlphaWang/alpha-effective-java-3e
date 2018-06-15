@@ -1,6 +1,7 @@
 # Item 47: Prefer Collection to Stream as a return type
 
-##We don't do this much.....but
+## We don't do this much.....but
+
 ```java
    // Won't compile, due to limitations on Java's type inference
 for (ProcessHandle ph : ProcessHandle.allProcesses()::iterator) { // Process the process
