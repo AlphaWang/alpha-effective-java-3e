@@ -155,7 +155,7 @@ public static void main(String[] args){
 
 ```
 
-- Now We have number Mersenne(p) = 2^p-1, but how can we know p?
+- Now We have number Mersenne(p) = 2^p -1, but how can we know p?
   - It is in initial stream ( primes() ) and not accessible from terminal stream.
   - Luckily we can get like this, but it needs additional computation
   ```java
