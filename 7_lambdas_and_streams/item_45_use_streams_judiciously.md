@@ -135,7 +135,7 @@ Stream.iterate(1, x -> x+1)
 
 ### Stream can't access certain elements meanwhile in multiple stages of pipeline
 
-- Mersenne primes : Primes which can be expressed as 2^p-1(let p be prime), for example : 2^3 -1 = 7
+- Mersenne primes : Primes which can be expressed as 2^p -1(let p be prime), for example : 2^3 -1 = 7
 
 
 ```java
