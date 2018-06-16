@@ -40,7 +40,9 @@ public class Item37_EnumMap {
      *    it is your responsibility to use the correct int value.
      */
     private static void ordinalIndexing(List<Plant> garden) {
+        
         Set<Plant>[] plantsByLifeCycle = (Set<Plant>[]) new Set[Plant.LifeCycle.values().length];
+        
         for (int i = 0; i < plantsByLifeCycle.length; i++) {
             plantsByLifeCycle[i] = new HashSet<>();
         }
@@ -61,7 +63,9 @@ public class Item37_EnumMap {
      * 2. Using an EnumMap to associate data with an enum
      */
     private static void enumMap(List<Plant> garden) {
+        
         Map<Plant.LifeCycle, Set<Plant>> plantsByLifeCycle = new EnumMap<>(Plant.LifeCycle.class);
+        
         for (Plant.LifeCycle lc : Plant.LifeCycle.values()) {
             plantsByLifeCycle.put(lc, new HashSet<>());
         }

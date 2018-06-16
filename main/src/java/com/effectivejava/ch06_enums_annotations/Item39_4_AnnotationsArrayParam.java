@@ -24,7 +24,7 @@ public class Item39_4_AnnotationsArrayParam {
         /**
          *  Code containing an annotation with an array parameter
          */
-        @ExceptionTest({ IndexOutOfBoundsException.class,NullPointerException.class }) 
+        @ExceptionTest({ IndexOutOfBoundsException.class, NullPointerException.class }) 
         public static void doublyBad() {
             List<String> list = new ArrayList<>();
             // The spec permits this method to throw either
