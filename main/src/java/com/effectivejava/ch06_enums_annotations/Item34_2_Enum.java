@@ -26,7 +26,7 @@ public class Item34_2_Enum {
     }
 
     /**
-     * Enum type with constant-specific method implementations
+     * Enum type with constant-specific method implementations.
      * associate different behaviour with each enum.
      */
     enum Operation2 {
