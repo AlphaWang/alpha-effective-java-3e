@@ -23,7 +23,7 @@
 * <b>ArithmeticException</b> if the m <= 0
 
 > <h4>Solution 1: add annotation @NotNull</h4> 
-      code logic is verified when IDE is compiling.<p>
+      code logic is verified while the compiling process of the IDE.
   <h4>Solution 2: Objects.requireNonNull</h4>
       if the t is null will throw exception<br>
       Objects.requireNonNull(T t, String message), edit the error message.
