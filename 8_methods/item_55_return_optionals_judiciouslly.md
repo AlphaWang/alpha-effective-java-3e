@@ -77,6 +77,6 @@ Example
 ### To summarize
 
 > If you find yourself writing a method that can't alway return a value and you believe
- it is important tat users of the method consider this possibility every time they call it,
+ it is important that users of the method consider this possibility every time they call it,
  then you should probably return an optional.<br>
 > <b>For performance-critical methods, return null or throw an Exception is better.</b>
