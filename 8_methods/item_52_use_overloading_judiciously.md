@@ -34,7 +34,7 @@ human
 
 > javap -c
 
-```java
+```bash
 public class com.effectivejava.ch08_method.StaticDispatch {
   public com.effectivejava.ch08_method.StaticDispatch();
     Code:
@@ -133,7 +133,7 @@ woman say hello
 
 >javap -c
 
-```java
+```bash
 public class com.effectivejava.ch08_method.DynamicDispatch {
   public com.effectivejava.ch08_method.DynamicDispatch();
     Code:
