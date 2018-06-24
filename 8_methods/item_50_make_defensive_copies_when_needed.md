@@ -56,33 +56,8 @@ public final class Period {
     private final LocalDateTime start;
     private final LocalDateTime end;
 
-    /**
-     * @param start          the beginning of the period
-     * @param end            the end of the period, must not precede start
-     * @throws IllegalArgumentException if start is after end
-     * @throws NullPointerException     if start or end is null
-     */
-    public Period(LocalDateTime start, LocalDateTime end) {
-        /*
-        * from Item-49
-        * */
-        Objects.requireNonNull(start, "start is null");
-        Objects.requireNonNull(end, "end is null");
-        if (start.compareTo(end) > 0) {
-            throw new IllegalArgumentException(start + " after " + end);
-        }
-        this.start = start;
-        this.end = end;
-    }
-
-    public LocalDateTime getEnd() {
-        return end;
-    }
-
-    public LocalDateTime getStart() {
-        return start;
-    }
-
+    ...
+    
     public static void main(String[] args){
         LocalDateTime startLD =  LocalDateTime.now();
         LocalDateTime endLD =  LocalDateTime.now();
