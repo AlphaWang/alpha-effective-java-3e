@@ -40,7 +40,7 @@ static int min(int... args){
 Good code
 ```java
 static int min(int firstArg, int... remainingArgs){
-    int min = firstArg[0];
+    int min = firstArg;
     for (int arg : remainingArgs){
         if (args < min)
             min = args;
