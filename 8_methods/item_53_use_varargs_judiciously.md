@@ -50,7 +50,7 @@ static int min(int firstArg, int... remainingArgs){
 ```
 
 ### To summary
-> varags are invaluable whtn you need to define methods with a variable number of arguments. 
+> varargs are invaluable when you need to define methods with a variable number of arguments. 
 Precede the varargs parameter with any required parameters, and be aware of the performance consequences
 of using varargs.
 
