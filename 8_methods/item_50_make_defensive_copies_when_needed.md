@@ -2,7 +2,7 @@
 You must program defensively, with the assumption that clients of your class will do their best to destroy its invariants.
 
 ##### An immutable object sample, like below.
-```$xslt
+```java
 public final class Period {
 
     private final Date start;
@@ -50,7 +50,7 @@ public final class Period {
 <h3>Solution </h3>
 > Solution 1: use LocalDateTime/ZoneDateTime. since Java 8
 
-```$xslt
+```java
 public final class Period {
 
     private final LocalDateTime start;
@@ -70,7 +70,7 @@ public final class Period {
 
 > Solution 2: Defensive copy to mutable object.
 
-```$xslt
+```java
 public final class Period {
 
     ...

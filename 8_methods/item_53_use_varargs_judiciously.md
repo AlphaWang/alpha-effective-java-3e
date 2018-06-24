@@ -4,7 +4,7 @@
 > accept zero or more arguments.<br>
 
 sample code
-```$xslt
+```java
 static int sum(int... args){
     int sum = 0;
     for (int arg : args){
@@ -21,7 +21,7 @@ static int sum(int... args){
 <hr>
 
 Bad code
-```$xslt
+```java
 static int min(int... args){
     if(args.length == 0)
         throw new IllegalArgumentException("Too few arguments");
@@ -38,7 +38,7 @@ static int min(int... args){
 >   * ``min`` need to be initialized.<br>
 
 Good code
-```$xslt
+```java
 static int min(int firstArg, int... remainingArgs){
     int min = firstArg[0];
     for (int arg : remainingArgs){

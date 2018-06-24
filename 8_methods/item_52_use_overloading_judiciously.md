@@ -34,7 +34,7 @@ human
 
 > javap -c
 
-```$xslt
+```java
 public class com.effectivejava.ch08_method.StaticDispatch {
   public com.effectivejava.ch08_method.StaticDispatch();
     Code:
@@ -99,7 +99,7 @@ public class com.effectivejava.ch08_method.StaticDispatch {
 
 > The choice of which overriding is dynamic
 
-```$xslt
+```java
 public class DynamicDispatch {
     static abstract class Human{
         protected abstract void sayHello();
@@ -133,7 +133,7 @@ woman say hello
 
 >javap -c
 
-```$xslt
+```java
 public class com.effectivejava.ch08_method.DynamicDispatch {
   public com.effectivejava.ch08_method.DynamicDispatch();
     Code:

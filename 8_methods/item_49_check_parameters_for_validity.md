@@ -1,7 +1,7 @@
 # Item 49: Check parameters for validity
 
 ##### Bad Code Sample
-```$xslt
+```java
     /**
      *
      * Return a BigInteger Whose value is (this mod m). This method
@@ -30,7 +30,7 @@
   <h4>Solution 3: assert check</h4></br>
 
 ##### Code Sample
-```$xslt
+```java
     /**
      *
      * Return a BigInteger Whose value is (this mod m). This method
