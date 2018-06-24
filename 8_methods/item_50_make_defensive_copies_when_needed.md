@@ -48,7 +48,8 @@ public final class Period {
 > Reset the period's end field
 
 <h3>Solution </h3>
-> Solution 1: use LocalDateTime/ZoneDateTime. since Java 8<br>
+> Solution 1: use LocalDateTime/ZoneDateTime. since Java 8
+
 ```$xslt
 public final class Period {
 
@@ -93,6 +94,7 @@ public final class Period {
 ```
 
 > Solution 2: Defensive copy to mutable object.
+
 ```$xslt
 public final class Period {
 
