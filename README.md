@@ -84,7 +84,7 @@
    * Item 67: Optimize judiciously
    * Item 68: Adhere to generally accepted naming conventions
 * [10 Exceptions](10_exceptions/README.md)
-   * [Item 69: Use exceptins only for exceptional conditions](10_exceptions/item_69_use_exceptins_only_for_exceptional_conditions.md)
+   * [Item 69: Use exceptins only for exceptional conditions](item_69_use_exceptions_only_for_exceptional_conditions.md)
    * [Item 70: Use checked exceptions for recoverable conditions and runtime exceptions for programming errors](10_exceptions/item_70_use_checked_exceptions_for_recoverable_conditions_and_runtime_exceptions_for_programming_errors.md)
    * [Item 71: Avoid unnecessary use of checked exceptions](10_exceptions/item_71_avoid_unnecessary_use_of_checked_exceptions.md)
    * [Item 72: Favor the use of standard exceptions](10_exceptions/item_72_favor_the_use_of_standard_exceptions.md)
@@ -103,9 +103,9 @@
    * Item 84: Don't depend on the thread scheduler
 * [12 Serialization](12_serialization/README.md)
    * [Item 85: Prefer alternatives to Java serialization](12_serialization/item_85_prefer_alternatives_to_java_serialization.md)
-   * [Item 86: Implement Serialzable with great caution](12_serialization/item_86_implement_serialzable_with_great_caution.md)
-   * [Item 87: Condider using a custom serialized form](12_serialization/item_87_condider_using_a_custom_serialized_form.md)
+   * [Item 86: Implement Serialzable with great caution](12_serialization/item_86_implement_serializable_with_great_caution.md)
+   * [Item 87: Condider using a custom serialized form](12_serialization/item_87_consider_using_a_custom_serialized_form.md)
    * [Item 88: Write readObject methods defensively](12_serialization/item_88_write_readobject_methods_defensively.md)
-   * [Item 89: For instance control, prefer enum types to readResovle](12_serialization/item_89_for_instance_control,_prefer_enum_types_to_readresovle.md)
+   * [Item 89: For instance control, prefer enum types to readResovle](12_serialization/item_89_for_instance_control,_prefer_enum_types_to_readresolve.md)
    * [Item 90: Consider serialization proxies instead of serialized instances](12_serialization/item_90_consider_serialization_proxies_instead_of_serialized_instances.md)
 
