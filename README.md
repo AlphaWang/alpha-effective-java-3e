@@ -84,7 +84,7 @@
    * Item 67: Optimize judiciously
    * Item 68: Adhere to generally accepted naming conventions
 * [10 Exceptions](10_exceptions/README.md)
-   * [Item 69: Use exceptins only for exceptional conditions](item_69_use_exceptions_only_for_exceptional_conditions.md)
+   * [Item 69: Use exceptins only for exceptional conditions](10_exceptions/item_69_use_exceptions_only_for_exceptional_conditions.md)
    * [Item 70: Use checked exceptions for recoverable conditions and runtime exceptions for programming errors](10_exceptions/item_70_use_checked_exceptions_for_recoverable_conditions_and_runtime_exceptions_for_programming_errors.md)
    * [Item 71: Avoid unnecessary use of checked exceptions](10_exceptions/item_71_avoid_unnecessary_use_of_checked_exceptions.md)
    * [Item 72: Favor the use of standard exceptions](10_exceptions/item_72_favor_the_use_of_standard_exceptions.md)
