@@ -102,7 +102,7 @@ DIVIDE("/", (x, y) -> x / y);
   List<String> tokens = Arrays.asList("a", "ab", "abc", "abcd", "abcde", "b", "bc", "bcd", "bcde");
     List<String> reversedStartingWithB = tokens
     .stream().filter(token -> token.startsWith("b"))
-    .map(CoupangStringUtils::reverse).collect(toList());
+    .map(StringUtils::reverse).collect(toList());
 
 ```
 
