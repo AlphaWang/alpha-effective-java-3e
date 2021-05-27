@@ -1,7 +1,6 @@
 # Effective Java 3rd Edition
 
 ## Frontend Architecture Group Study
-* https://wiki.coupang.net/display/FA/1.+Effective+Java+3rd+edition
 * 2018-05-25 ~ 2018-07-18
 
 ## Index

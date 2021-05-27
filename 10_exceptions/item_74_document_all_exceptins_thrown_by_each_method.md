@@ -38,6 +38,3 @@ class NullPointerException extends RuntimeException {
 - Declare each checked exception individually in a method's throws clause
 - Do not declare unchecked exceptions in a method's throws clause
 
-
-[< Before](http://gitlab.coupang.net/allie/effective-java/blob/master/10_exceptions/item_73_throw_exceptions_appropriate_to_the_abstractions.md)
-[Next >](http://gitlab.coupang.net/allie/effective-java/blob/master/10_exceptions/item_75_include_failure-capture_information_indetail_messages.md)

@@ -58,5 +58,3 @@ When used sparingly, checked exceptions can increase the reliability of programs
 When overused, they make APIs painful to use.  
 If callers won't be able to recover from failures, throw unchecked exceptions.  
 
-[< Before](http://gitlab.coupang.net/allie/effective-java/blob/master/10_exceptions/item_70_use_checked_exceptions_for_recoverable_conditions_and_runtime_exceptions_for_programming_errors.md)
-[Next >](http://gitlab.coupang.net/allie/effective-java/blob/master/10_exceptions/item_72_favor_the_use_of_standard_exceptions.md)

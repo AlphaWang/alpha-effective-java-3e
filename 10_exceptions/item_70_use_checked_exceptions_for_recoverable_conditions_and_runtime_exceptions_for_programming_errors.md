@@ -32,6 +32,3 @@ Provide methods on you checked exceptions to aid(help) in recovery. (See Item 75
 
 ***
 
-
-[< Before](http://gitlab.coupang.net/allie/effective-java/blob/master/10_exceptions/item_69_use_exceptions_only_for_exceptional_conditions.md)
-[Next >](http://gitlab.coupang.net/allie/effective-java/blob/master/10_exceptions/item_71_avoid_unnecessary_use_of_checked_exceptions.md)

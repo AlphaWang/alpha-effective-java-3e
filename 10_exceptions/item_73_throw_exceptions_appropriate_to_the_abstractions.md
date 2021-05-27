@@ -84,6 +84,3 @@ if it isn't feasible to prevent or to handle exceptions from lower layers, use e
 unless the lower-level method happens to guarantee that all of its exceptions are appropriate to the higher level.  
 Chaining provides the best of both worlds:  
 it allows you to throw an appropriate higher-level exception while capturing the underlying cause for failure analysis.  
-
-[< Before](http://gitlab.coupang.net/allie/effective-java/blob/master/10_exceptions/item_72_favor_the_use_of_standard_exceptions.md)
-[Next >](http://gitlab.coupang.net/allie/effective-java/blob/master/10_exceptions/item_74_document_all_exceptins_thrown_by_each_method.md)

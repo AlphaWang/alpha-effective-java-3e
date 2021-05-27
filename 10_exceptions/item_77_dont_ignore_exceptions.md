@@ -33,5 +33,3 @@ ignoring it with an empty catch block will result in a program that continues si
 
 ### Summary
 _So, Don't ignore exceptions._
-
-[< Before](http://gitlab.coupang.net/allie/effective-java/blob/master/10_exceptions/item_76_strive_for_failure_atomicity.md)
