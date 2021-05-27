@@ -124,7 +124,7 @@ public interface LongFunction<R> {
     		executorService.submit((Runnable)foo);
 	}
 	^ No Compile Error : Even no unchecked warning
-	^ But Runtime Error : ClassCastException(java.lang.ClassCastException: com.coupang.productreview.interfaces.common.TestUtils$$Lambda$1/1121453612 cannot be cast to java.lang.Runnable) 
+	^ But Runtime Error : ClassCastException(java.lang.ClassCastException: com.xx.productreview.interfaces.common.TestUtils$$Lambda$1/1121453612 cannot be cast to java.lang.Runnable) 
 ```
 
 ## Stick with Standard functional interfacces but keep your eyes open to the exceptional case like Comparator

@@ -84,6 +84,3 @@ In summary,
 Any generated exception that is part of a method's specification **should leave the object in the same state** it was in prior to the method invocation.  
 Where this rule is violated, **the API documentation should clearly indicate** what state the object will be left in.
 
-
-[< Before](http://gitlab.coupang.net/allie/effective-java/blob/master/10_exceptions/item_75_include_failure-capture_information_indetail_messages.md)
-[Next >](http://gitlab.coupang.net/allie/effective-java/blob/master/10_exceptions/item_77_dont_ignore_exceptions.md)

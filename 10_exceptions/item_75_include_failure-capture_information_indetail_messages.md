@@ -56,6 +56,3 @@ public IndexOutOfBoundsException(int lowerBound, int upperBound, int index) {
 
 ## Summary
 Include failure-capture information in detail messages. Even for unchecked exceptions.
-
-[< Before](http://gitlab.coupang.net/allie/effective-java/blob/master/10_exceptions/item_74_document_all_exceptins_thrown_by_each_method.md)
-[Next >](http://gitlab.coupang.net/allie/effective-java/blob/master/10_exceptions/item_76_strive_for_failure_atomicity.md)

@@ -69,6 +69,3 @@ try {
 ## Summary
 Exceptions are designed for exceptional conditions.  
 Don't use them for ordinary control flow, and don't write APIs that force others to do so.
-
-[< Before](http://gitlab.coupang.net/allie/effective-java/blob/master/10_exceptions/Chapter10_Exceptions.md)
-[Next >](http://gitlab.coupang.net/allie/effective-java/blob/master/10_exceptions/item_70_use_checked_exceptions_for_recoverable_conditions_and_runtime_exceptions_for_programming_errors.md)

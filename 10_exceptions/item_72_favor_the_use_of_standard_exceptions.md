@@ -25,6 +25,3 @@ Java libraries provide a set of exceptions that covers most of the exception-thr
   - Don't use just on name.
 - Feel free to subclass a standard exception if you want to add more detail.
 - Remember that exceptions are serializable because Throwable class implements Serializable. (Chapter 12)
-
-[< Before](http://gitlab.coupang.net/allie/effective-java/blob/master/10_exceptions/item_71_avoid_unnecessary_use_of_checked_exceptions.md)
-[Next >](http://gitlab.coupang.net/allie/effective-java/blob/master/10_exceptions/item_73_throw_exceptions_appropriate_to_the_abstractions.md)
